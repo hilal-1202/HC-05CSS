@@ -2,15 +2,17 @@
   margin: 0;
   padding: 0;
 }
-h1{
+h1 {
   text-align: center;
-  marjin:30px;
+  margin: 30px;
 }
-body{
+body {
   font-family: "Roboto", sans-serif;
-  background-image:url(./coulds.png);
+  background-image: url(./clouds.png);
+
   /*background-repeat: no-repeat;*/
-  background-size.cover;
+
+  background-size: cover;
 }
 label {
   display: inline-block;
@@ -18,34 +20,35 @@ label {
   margin: 10px;
   font-weight: 900;
 }
-.save-clear{
+.save-clear {
   text-align: center;
 }
-.in{
+.in {
   width: 135px;
   height: 30px;
   border-radius: 8px;
   border-style: none;
 }
-form{
+form {
   background-color: aqua;
-  background: linear-gradient(90deg, rgba(143,195,235,1)) 0%,
-  rgba(146,176,233,1) 35%, rgba(147,154,226,1);
-  margin:10px auto;
+  background: linear-gradient(90deg, rgba(143, 195, 235, 1)) 0%,
+    rgba(146, 176, 233, 1) 35%, rgba(147, 154, 226, 1);
+  margin: 10px auto;
   padding: 20px;
-  width:fit-content;
+  width: fit-content;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.but{
+.but {
   border-style: none;
   border-radius: 10px;
   padding: 5px 15px;
-  background-color: #DF9FDC;
+  background-color: #df9fdc;
 }
-.but:hover{
+.but:hover {
   background-color: coral;
   color: white;
   cursor: pointer;
 }
-
